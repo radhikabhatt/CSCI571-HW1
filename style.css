@@ -1,0 +1,108 @@
+body{
+	margin: 0px;
+background-image: url("background.png");
+background-repeat: repeat-x;
+
+background-color: #FCFBEF;
+}
+
+div{
+	margin: auto;
+}
+#flower, #menu, #content, #navigation{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#flower{
+	/*width: 75%;*/
+	position: relative;
+}
+
+#title h2{
+  position: absolute;
+  right: 76px;
+  bottom: 59px;/*margin: -200px 0px 0px 730px;*/
+  
+}
+#title {
+    position: absolute;
+    right: 85px;
+    bottom: 70px;
+    font-size: 28px;
+  font-weight: bold;
+}
+
+#image_wrapper{
+	  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("flower.jpg");
+    width: 900px;
+    height: 354px;
+    position: relative;
+}
+
+#yellow_text{
+	color: #AC9C00;
+}
+#flower_text{
+	color: #F5DD57;
+}
+#author_name{
+	color: #786D00;
+	font-size: 22px;
+	
+}
+/*#menu{
+	width: 79%;
+}*/
+
+#content{
+	background-color: white;
+	width: 900px;
+	margin-bottom: 50px;
+}
+#content_desc{
+	padding-left: 15px;
+	padding-top:	10px;
+}
+#navigation{
+    padding-top: 17px;
+    padding-left: 23px;
+ 
+}
+
+#menu_bar a{
+	margin: 5%;
+	text-decoration: none;
+	color: #3C3700;
+	font-weight: bold;
+}
+#menu_bar a:hover{
+	color:#786D00;
+}
+.other_link{
+	color: #E6D100;
+	text-decoration: none;
+	font-weight: bold;
+}
+#footer_links{
+	text-align: center;
+	padding-bottom: 5px;
+}
+#menu_bar{
+	 background-image: url("menu.png");
+width: 940px;
+height: 53px;
+position: relative;
+padding-top: 16px;
+background-repeat: no-repeat;
+}
+#menu_bar span{
+	margin: 0px auto;
+  position: absolute;
+  width: 900px;
+  margin-top: 15px;
+}
